@@ -17,10 +17,8 @@ def self.count
   @@count
 end
 
-def artists
-   
-  def genre=(genre)
-    @genre = genre
+def artists(artist)
+    @artist = artist
     GENRES << genre
   end
   
