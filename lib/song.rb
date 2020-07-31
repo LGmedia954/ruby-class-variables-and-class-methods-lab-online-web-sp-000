@@ -4,7 +4,7 @@ attr_accessor :name, :artist, :genre
 
 @@genres = []
 @@artists = []
-@@genres = {}
+@@genres = []
   
   @@count = 0
   
