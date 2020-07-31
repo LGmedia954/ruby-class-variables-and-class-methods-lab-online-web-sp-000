@@ -7,6 +7,12 @@ attr_accessor :song, :artists, :genres
 def self.count
   @@song_count
 end
+
+
+  def genre=(genre)
+    @genre = genre
+    GENRES << genre
+  end
   
 end
   
