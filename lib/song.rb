@@ -9,6 +9,7 @@ GENRES = []
   
    def initialize
     @song_count += 1
+    @name = name
     
   end
   
