@@ -6,7 +6,6 @@ attr_accessor :name, :artist, :genre
 @@artists = []
 @@genres = []
 
-  
  def initialize
     @name = name
     @artist = artist
@@ -21,9 +20,8 @@ def self.count
 end
 
 def self.artists
-    @@artist.uniq
-  end
-  
+  @@artist.uniq
+end
   
   
   def self.artist_count
@@ -38,16 +36,22 @@ def self.artists
     artist_count
   end
   
-  
 
 def self.genres
     @@genres.uniq
   end
   
-  
-  def genre_count
-    
-    
+
+  def self.genre_count
+    genre_count = {}
+    @@genres.each do |genre|
+      if genre_count[genre]
+        genre_count[genre] += 1
+      else
+        genre_count[genre] = 1 
+      end
+    end
+    genre_count
   end
   
   
