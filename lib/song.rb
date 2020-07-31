@@ -20,7 +20,7 @@ def self.count
   @@count
 end
 
-def artists(artist)
+def self.artists
     @artist = artist
     
   end
