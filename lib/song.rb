@@ -24,14 +24,22 @@ def self.artists
     @@artist.uniq
   end
   
-  def genre_count
-    
-    
-  end
+  
   
   def artist_count
     
   end
   
+  
+  def genre_count
+    
+    
+  end
+  
+  
+  def genre_count
+    
+    
+  end
 end
   
