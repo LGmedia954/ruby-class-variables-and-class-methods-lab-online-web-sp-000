@@ -26,7 +26,7 @@ def self.artists
   
   
   
-  def artist_count
+  def self.artist_count
     
   end
   
