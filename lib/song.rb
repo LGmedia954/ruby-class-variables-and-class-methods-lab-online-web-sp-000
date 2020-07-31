@@ -32,7 +32,7 @@ def self.artists
   
   
 
-def self.genre
+def self.genres
     @@artist.uniq
   end
   
