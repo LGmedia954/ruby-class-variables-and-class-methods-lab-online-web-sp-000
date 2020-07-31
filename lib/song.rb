@@ -31,8 +31,8 @@ def self.artists
   end
   
   
-  def genre_count
-def self.artists
+
+def self.genre
     @@artist.uniq
   end
   
