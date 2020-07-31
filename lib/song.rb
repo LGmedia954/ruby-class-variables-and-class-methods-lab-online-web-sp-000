@@ -22,7 +22,6 @@ end
 
 def self.artists
     @@artist = artist
-    
   end
   
   def genre_count
