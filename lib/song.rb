@@ -2,10 +2,10 @@ class Song
   
 attr_accessor :name, :artist, :genre
 
-@@genres = []
-@@artists = []
 @@count = 0
-  
+@@artists = []
+@@genres = []
+
   
  def initialize
     @@count += 1
